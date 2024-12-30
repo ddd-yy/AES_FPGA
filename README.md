@@ -2,50 +2,6 @@
 
 该仓库包含 AES128 加密算法的 Verilog 实现。顶层模块是 `AES128`，它协调密钥生成和加密轮次。项目结构和每个模块的功能如下所述。
 
-## 项目结构
-aes_top.v
-generate_key.v
-mix_columns.v
-round_iteration.v
-shift_rows.v
-sub_bytes.v
-tb_top.v
-testAES.py
-testEncryption.txt
-transcript
-vsim.wlf
-work/
-    _info
-    _lib.qdb
-    _lib1_10.qdb
-    _lib1_10.qpg
-    _lib1_10.qtl
-    _opt2__lock
-    _temp/
-    _tempmsg/
-    _vmake
-    @_opt/
-        _data/
-        _lib.qdb
-        _lib1_0.qdb
-        _lib1_0.qpg
-        _lib1_0.qtl
-        _lib2_0.qdb
-        _lib2_0.qpg
-        _lib2_0.qtl
-        _lib3_0.qdb
-        _lib3_0.qpg
-        _lib3_0.qtl
-        _lib4_0.qdb
-        _lib4_0.qpg
-        _lib4_0.qtl
-    @_opt1/
-        _data/
-        _lib.qdb
-        _lib1_0.qdb
-        ...
-    @_opt2/
-
 ## 模块描述
 
 ### [`aes_top.v`](aes_top.v)
@@ -116,3 +72,7 @@ work/
 ---
 
 此 README 提供了 AES128 加密模块及其组件的概述。有关更详细的信息，请参阅每个模块中的源代码和注释。
+
+## 版权说明
+
+版权所有 © 2024 DongYu。保留所有权利。
