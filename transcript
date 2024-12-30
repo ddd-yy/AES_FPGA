@@ -1,0 +1,187 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile tb_top.v
+vsim -voptargs=+acc work.testbench
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 09:10:34 on Dec 30,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# Loading work.AES128(fast)
+# Loading work.GENERATE_KEY(fast)
+# Loading work.ROUND_ITERATION(fast)
+# Loading work.SUB_BYTES(fast)
+# Loading work.SHIFT_ROWS(fast)
+# Loading work.MIX_COLUMNS(fast)
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/resetn \
+sim:/testbench/valid_key_gen \
+sim:/testbench/valid_round \
+sim:/testbench/valid_out \
+sim:/testbench/inp_data \
+sim:/testbench/inp_key \
+sim:/testbench/out_data
+# Error opening D:/ProgramEnvironment/verilog/AES128_Entryption_new/s_box.v
+# Path name 'D:/ProgramEnvironment/verilog/AES128_Entryption_new/s_box.v' doesn't exist.
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.testbench(fast)
+# Loading work.AES128(fast)
+# Loading work.GENERATE_KEY(fast)
+# Loading work.ROUND_ITERATION(fast)
+# Loading work.SUB_BYTES(fast)
+# Loading work.SHIFT_ROWS(fast)
+# Loading work.MIX_COLUMNS(fast)
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/aes_top.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:44 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/aes_top.v 
+# -- Compiling module AES128
+# 
+# Top level modules:
+# 	AES128
+# End time: 09:11:44 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/generate_key.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:44 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/generate_key.v 
+# -- Compiling module GENERATE_KEY
+# 
+# Top level modules:
+# 	GENERATE_KEY
+# End time: 09:11:44 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/last_round.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:44 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/last_round.v 
+# -- Compiling module LAST_ROUND
+# 
+# Top level modules:
+# 	LAST_ROUND
+# End time: 09:11:44 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/mix_columns.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:44 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/mix_columns.v 
+# -- Compiling module MIX_COLUMNS
+# 
+# Top level modules:
+# 	MIX_COLUMNS
+# End time: 09:11:45 on Dec 30,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/round_iteration.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:45 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/round_iteration.v 
+# -- Compiling module ROUND_ITERATION
+# 
+# Top level modules:
+# 	ROUND_ITERATION
+# End time: 09:11:45 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/shift_rows.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:45 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/shift_rows.v 
+# -- Compiling module SHIFT_ROWS
+# 
+# Top level modules:
+# 	SHIFT_ROWS
+# End time: 09:11:45 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/sub_bytes.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:45 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/sub_bytes.v 
+# -- Compiling module SUB_BYTES
+# 
+# Top level modules:
+# 	SUB_BYTES
+# End time: 09:11:45 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:11:45 on Dec 30,2024
+# vlog -reportprogress 300 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:11:45 on Dec 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# Loading work.AES128(fast)
+# Loading work.GENERATE_KEY(fast)
+# Loading work.ROUND_ITERATION(fast)
+# Loading work.SUB_BYTES(fast)
+# Loading work.SHIFT_ROWS(fast)
+# Loading work.MIX_COLUMNS(fast)
+vsim -voptargs=+acc work.testbench
+# End time: 09:11:58 on Dec 30,2024, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 09:11:58 on Dec 30,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.testbench(fast)
+# Loading work.AES128(fast)
+# Loading work.GENERATE_KEY(fast)
+# Loading work.ROUND_ITERATION(fast)
+# Loading work.SUB_BYTES(fast)
+# Loading work.SHIFT_ROWS(fast)
+# Loading work.MIX_COLUMNS(fast)
+add wave -position insertpoint  \
+sim:/testbench/clk \
+sim:/testbench/resetn \
+sim:/testbench/valid_key_gen \
+sim:/testbench/valid_round \
+sim:/testbench/valid_out \
+sim:/testbench/inp_data \
+sim:/testbench/inp_key \
+sim:/testbench/out_data
+run
+# Test Case 1 - Key Generation:
+# Round 0 Key: 0123456789abcdef0123456789abcdef
+# Round 1 Key: 629e9ac0eb35572fea16124863bddfa7
+# Round 2 Key: 1a00c63bf13591141b23835c789e5cfb
+# Round 3 Key: 154ac987e47f5893ff5cdbcf87c28734
+# Round 4 Key: 385dd190dc228903237e52cca4bcd5f8
+# Round 5 Key: 4d5e90d9917c19dab2024b1616be9eee
+# Round 6 Key: c355b89e5229a144e02bea52f69574bc
+# Round 7 Key: a9c7dddcfbee7c981bc596caed50e276
+# Round 8 Key: 7a5fe58981b199119a740fdb7724edad
+# Round 9 Key: 570a707cd6bbe96d4ccfe6b63beb0b1b
+# Round 10 Key: 8821df9e5e9a36f31255d04529bedb5e
+# Test Case 2 - Encryption:
+# Round 0 Data: d6c69eb4bbee5817fce492a2f871a1c5
+# Round 1 Data: 044f2bf120d63c5094161cd0760bb0ce
+# Round 2 Data: f33167510b9f4c2f800c864604e3bd3c
+# Round 3 Data: d6cdb1c200ec11d3dd32293d59840e63
+# Round 4 Data: d823ae17f1c4eb64f524edcf50acd5cf
+# Round 5 Data: 7472c23c614483ec6aa92ad4b90ba7db
+# Round 6 Data: 8d7c30a44e74032c72dec0dd3e24797a
+# Round 7 Data: deaa08bc7d73e2d0b4947bda188eee49
+# Round 8 Data: d01f78764f17bbcbf0eb6b9e162e3edb
+# Round 9 Data: 7ab9de0a6f03b3d1bfe1198a0f195eee
+# Round 10 Data: 525a0bb6f6626e941a81cd7b5fe8b620
+# Test Case 3 - Final Output:
+# Encrypted value: 525a0bb6f6626e941a81cd7b5fe8b620
+# ** Note: $finish    : D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v(144)
+#    Time: 140 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v line 144

@@ -1,0 +1,231 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/projects/AES128_Entryption
+T_opt
+!s110 1735387844
+V<BA;QilfeOEm[Joz=fhCG2
+Z1 04 9 4 work testbench fast 0
+=1-c4c6e6a882df-676feac4-256-a6c4
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1735444026
+V`1_92h;oHQ[Cdo01N:=Zd1
+R1
+=6-c4c6e6a882df-6770c639-2eb-a7bc
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1735521111
+VS_UK1OZ`W2d:=AE]3;hQk0
+R1
+=3-4cd5776b25e5-6771f356-395-7114
+R4
+R2
+n@_opt2
+R3
+vAES128
+Z5 !s110 1735521104
+!i10b 1
+!s100 G;@[c=lN[KJXZ>ZdPOgNM3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXDL4RMM8Kj`ljcn9Cle=^0
+Z7 dD:/ProgramEnvironment/verilog/AES128_Entryption_new
+w1735520627
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/aes_top.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/aes_top.v
+!i122 351
+L0 1 184
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1735521104.000000
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/aes_top.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/aes_top.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@e@s128
+vGENERATE_KEY
+R5
+!i10b 1
+!s100 [lk8SQiGneUZE0GWehHeD3
+R6
+IgS3Va=ObF8NL?bSj0a^aK3
+R7
+w1735519698
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/generate_key.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/generate_key.v
+!i122 352
+L0 1 110
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/generate_key.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/generate_key.v|
+!i113 0
+R11
+R2
+n@g@e@n@e@r@a@t@e_@k@e@y
+vLAST_ROUND
+R5
+!i10b 1
+!s100 AbI`16zag4j8CX@fAEGh@1
+R6
+IPVASljf<EzW:lllh<SgLL0
+R7
+w1735285532
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/last_round.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/last_round.v
+!i122 353
+L0 1 23
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/last_round.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/last_round.v|
+!i113 0
+R11
+R2
+n@l@a@s@t_@r@o@u@n@d
+vMIX_COLUMNS
+Z12 !s110 1735521105
+!i10b 1
+!s100 Rg;85aoa<`VL]`[A<UGzi1
+R6
+I^kzHW43T?Ta7>zz0=6fe<2
+R7
+w1735284456
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/mix_columns.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/mix_columns.v
+!i122 354
+L0 1 46
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/mix_columns.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/mix_columns.v|
+!i113 0
+R11
+R2
+n@m@i@x_@c@o@l@u@m@n@s
+vROUND_ITERATION
+R12
+!i10b 1
+!s100 >6@zoGg<Mb7:6LlfV=iIC2
+R6
+IU6gz6^f:S:8NKGfBECD`22
+R7
+w1735520384
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/round_iteration.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/round_iteration.v
+!i122 355
+L0 1 35
+R8
+R9
+r1
+!s85 0
+31
+Z13 !s108 1735521105.000000
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/round_iteration.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/round_iteration.v|
+!i113 0
+R11
+R2
+n@r@o@u@n@d_@i@t@e@r@a@t@i@o@n
+vSHIFT_ROWS
+R12
+!i10b 1
+!s100 :SP[]eCeMMeV`^>@e5WTY2
+R6
+IbA@nI6SNP0gIdVKSdGU0`3
+R7
+w1735284440
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/shift_rows.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/shift_rows.v
+!i122 356
+L0 1 36
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/shift_rows.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/shift_rows.v|
+!i113 0
+R11
+R2
+n@s@h@i@f@t_@r@o@w@s
+vSUB_BYTES
+R12
+!i10b 1
+!s100 ?[B9<dK;g^1`KIg[eVHYk2
+R6
+IP]k1V@LS4eNziAGz3_ZZR0
+R7
+w1735519746
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/sub_bytes.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/sub_bytes.v
+!i122 357
+L0 1 82
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/sub_bytes.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/sub_bytes.v|
+!i113 0
+R11
+R2
+n@s@u@b_@b@y@t@e@s
+vtestbench
+R12
+!i10b 1
+!s100 BEkO;K7?KO`fzdYF3djj@0
+R6
+Il88:BXDg6zKECmiO9Qa@=0
+R7
+w1735520907
+8D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v
+FD:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v
+!i122 358
+L0 3 145
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/ProgramEnvironment/verilog/AES128_Entryption_new/tb_top.v|
+!i113 0
+R11
+R2
